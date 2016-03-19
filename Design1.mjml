@@ -15,8 +15,8 @@
   
 <!-- Intro text -->
   <mj-section background-color="#fafafa">
-        <mj-column width="500">
-          <mj-text color="#525252">
+        <mj-column width="400">
+          <mj-text color="#525252" align="justify">
                 Happy to announce that Volteo's PSA is now available and ready to use! Professional Services Automation is Volteo's internal system to track customer leads, projects and resources. Built on ServiceNow, PSA leverages the Project Management and Time Card modules with custom integrations for tracking customers and invoicing to provide a full-fledged back office system for an IT professional services company. 
           </mj-text>
 
@@ -36,73 +36,73 @@
   </mj-section>
 <!-- Applications -->
 <!-- First row - 3 columns -->
-  <mj-section background-color="white">
+  <mj-section background-color="white" padding-bottom="0px">
   <!-- First Column Time Tracking -->
-   <mj-column background-color="#fafafa">
+   <mj-column background-color="#f2f2f2">
      <mj-image src="./assets/icons/timetracking.png" width="100">
      </mj-image>
      <mj-text align="center">
          Track your time on a user friendly, single page application.
      </mj-text>
-     <mj-button>
+     <mj-button border="1px solid #F63A4D" color="#F63A4D" background-color="#fff" href="#">
          Read More
      </mj-button>
    </mj-column>
    <!-- Second Column leave management -->
-   <mj-column background-color="#fafafa">
+   <mj-column background-color="#f2f2f2">
      <mj-image src="./assets/icons/leave.png" width="100">
      </mj-image>
      <mj-text align="center">
          Apply for a leave and track your time-off with leave management.
      </mj-text>
-     <mj-button>
+     <mj-button border="1px solid #F63A4D" color="#F63A4D" background-color="#fff" href="#">
          Read More
      </mj-button>
    </mj-column>
    <!-- Third Column onboarding-->
-   <mj-column>
+   <mj-column background-color="#f2f2f2">
      <mj-image src="./assets/icons/onboard2.png" width="100">
      </mj-image>
      <mj-text align="center">
          Explore the easy to use automated On-boarding processes.
      </mj-text>
-     <mj-button>
+     <mj-button border="1px solid #F63A4D" color="#F63A4D" background-color="#fff" href="#">
          Read More
      </mj-button>
    </mj-column>
   </mj-section>
 <!-- Second Row - 3 columns  -->
-  <mj-section background-color="white">
+  <mj-section background-color="white" padding-top="0px;">
       <!-- First Column Invoices -->
-   <mj-column background-color="#fafafa">
+   <mj-column background-color="#f2f2f2">
      <mj-image src="./assets/icons/invocing.png" width="100">
      </mj-image>
      <mj-text align="center">
          Generate and track invoices with integrated project and time.
      </mj-text>
-     <mj-button>
+     <mj-button border="1px solid #F63A4D" color="#F63A4D" background-color="#fff" href="#">
          Read More
      </mj-button>
    </mj-column>
    <!-- Second Column PPM (project portfolio management) -->
-   <mj-column>
+   <mj-column background-color="#f2f2f2">
      <mj-image src="./assets/icons/projectmgmt.png" width="100">
      </mj-image>
      <mj-text align="center">
          Follow the simple steps to setup and track your projects.
      </mj-text>
-     <mj-button>
+     <mj-button border="1px solid #F63A4D" color="#F63A4D" background-color="#fff">
          Read More
      </mj-button>
    </mj-column>
    <!-- Third Column vTime-->
-   <mj-column>
+   <mj-column background-color="#f2f2f2">
      <mj-image src="./assets/icons/vtimetrans.png" width="100">
      </mj-image>
      <mj-text align="center">
          Use the Mobile application for Time Tracking Easy on-the-Go!
      </mj-text>
-     <mj-button>
+     <mj-button border="1px solid #F63A4D" color="#F63A4D" background-color="#fff">
          Read More
      </mj-button>
    </mj-column>
@@ -119,7 +119,15 @@
     <mj-image padding="35" width="100" src="http://191n.mj.am/img/191n/3s/x0s.png" />
   </mj-column>
 </mj-section>
-  
+<!--footer-->
+<mj-section background-color="#51515c">
+    <mj-column>
+        <mj-text color="white" align="center">
+            &copy; Volteo, 2016
+        </mj-text>
+    </mj-column>
+</mj-section> 
+<!--social--> 
   <mj-section background-color="#e7e7e7">
   <mj-column>
     <mj-social display="facebook" display="google"  google-icon-color="#424242"
@@ -127,11 +135,5 @@
       google-href="my google+ page"/>
   </mj-column>
 </mj-section>
-<!-- footer in dark color -->
-<mj-section>
-    <mj-column>
-        
-    </mj-column>
-</mj-section>
-</mj-body>
+
 
