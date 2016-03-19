@@ -1,0 +1,137 @@
+<mj-body background-color="#e8e8e8">
+<!-- Company Header -->
+<mj-section background-color="#fff">
+    <mj-column>
+      <mj-image width="100" src="./assets/VolteoBlackRed.jpg"></mj-image>
+  </mj-column>
+</mj-section>
+  
+  
+  <!-- Image Header -->
+  <mj-section background-url="./assets/img/backbase.jpg" background-size="cover" padding="10">
+    <mj-column>
+          <mj-text  align="center" line-height="1"  color="#fff"  padding="50px" font-size="40" font-family="Helvetica Neue">Professional Service Automation</mj-text>
+  </mj-section>
+  
+<!-- Intro text -->
+  <mj-section background-color="#fafafa">
+        <mj-column width="500">
+          <mj-text color="#525252">
+                Happy to announce that Volteo's PSA is now available and ready to use! Professional Services Automation is Volteo's internal system to track customer leads, projects and resources. Built on ServiceNow, PSA leverages the Project Management and Time Card modules with custom integrations for tracking customers and invoicing to provide a full-fledged back office system for an IT professional services company. 
+          </mj-text>
+
+           <mj-button background-color="#F63A4D" href="#" border-radius="50px" font-style="normal">
+              Learn More
+          </mj-column>
+    </mj-column>
+  </mj-section>
+  <!-- Applications and horizontal line -->
+  <mj-section background-color="white" padding="0px">
+      <mj-column>
+          <mj-text align="center" font-size="16px" padding-bottom="0px">
+              Products
+          </mj-text>
+          <mj-divider border-width="1px"  border-color="#F63A4D"></mj-divider>
+      </mj-column>
+  </mj-section>
+<!-- Applications -->
+<!-- First row - 3 columns -->
+  <mj-section background-color="white">
+  <!-- First Column Time Tracking -->
+   <mj-column background-color="#fafafa">
+     <mj-image src="./assets/icons/timetracking.png" width="100">
+     </mj-image>
+     <mj-text align="center">
+         Track your time on a user friendly, single page application.
+     </mj-text>
+     <mj-button>
+         Read More
+     </mj-button>
+   </mj-column>
+   <!-- Second Column leave management -->
+   <mj-column background-color="#fafafa">
+     <mj-image src="./assets/icons/leave.png" width="100">
+     </mj-image>
+     <mj-text align="center">
+         Apply for a leave and track your time-off with leave management.
+     </mj-text>
+     <mj-button>
+         Read More
+     </mj-button>
+   </mj-column>
+   <!-- Third Column onboarding-->
+   <mj-column>
+     <mj-image src="./assets/icons/onboard2.png" width="100">
+     </mj-image>
+     <mj-text align="center">
+         Explore the easy to use automated On-boarding processes.
+     </mj-text>
+     <mj-button>
+         Read More
+     </mj-button>
+   </mj-column>
+  </mj-section>
+<!-- Second Row - 3 columns  -->
+  <mj-section background-color="white">
+      <!-- First Column Invoices -->
+   <mj-column background-color="#fafafa">
+     <mj-image src="./assets/icons/invocing.png" width="100">
+     </mj-image>
+     <mj-text align="center">
+         Generate and track invoices with integrated project and time.
+     </mj-text>
+     <mj-button>
+         Read More
+     </mj-button>
+   </mj-column>
+   <!-- Second Column PPM (project portfolio management) -->
+   <mj-column>
+     <mj-image src="./assets/icons/projectmgmt.png" width="100">
+     </mj-image>
+     <mj-text align="center">
+         Follow the simple steps to setup and track your projects.
+     </mj-text>
+     <mj-button>
+         Read More
+     </mj-button>
+   </mj-column>
+   <!-- Third Column vTime-->
+   <mj-column>
+     <mj-image src="./assets/icons/vtimetrans.png" width="100">
+     </mj-image>
+     <mj-text align="center">
+         Use the Mobile application for Time Tracking Easy on-the-Go!
+     </mj-text>
+     <mj-button>
+         Read More
+     </mj-button>
+   </mj-column>
+  </mj-section>
+  <!-- Icons -->
+<mj-section background-color="#fbfbfb">
+  <mj-column>
+    <mj-image padding="35" width="100" src="http://191n.mj.am/img/191n/3s/x0l.png" />
+  </mj-column>
+  <mj-column>
+    <mj-image padding="35" width="100" src="http://191n.mj.am/img/191n/3s/x01.png" />
+  </mj-column>
+  <mj-column>
+    <mj-image padding="35" width="100" src="http://191n.mj.am/img/191n/3s/x0s.png" />
+  </mj-column>
+</mj-section>
+  
+  <mj-section background-color="#e7e7e7">
+  <mj-column>
+    <mj-social display="facebook" display="google"  google-icon-color="#424242"
+      facebook-icon-color="#424242"  facebook-href="my facebook page"
+      google-href="my google+ page"/>
+  </mj-column>
+</mj-section>
+<!-- footer in dark color -->
+<mj-section>
+    <mj-column>
+        
+    </mj-column>
+</mj-section>
+</mj-body>
+

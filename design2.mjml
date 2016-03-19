@@ -1,0 +1,71 @@
+<mj-body background-color="#e8e8e8">
+  <mj-section background-color="#FFF" border-radius="2px">
+    <mj-column>
+      <mj-image width="100" src="./assets/VolteoBlackRed.jpg"></mj-image>
+    </mj-column>
+  </mj-section>
+  <mj-section background-color="#fb5b63">
+      <mj-column>
+          <mj-text font-size="20px" color="#FFF" font-family="helvetica" align="center">Welcome to PSA</mj-text>
+          <mj-divider border-width="1px"  border-color="lightgrey"></mj-divider>
+          <mj-text align="center"  color="#fff" font-size="14" font-weight="2"  font-family="Arial">
+              Happy to announce that Volteo's PSA is now available and ready to use! Professional Services Automation is Volteo's internal system to track customer leads, projects and resources
+          </mj-text>
+      </mj-column>
+  </mj-section>
+  <mj-section background-color="#f2f2f2">
+      <mj-column >
+          <mj-text align="center">
+              PSA Applications
+          </mj-text>
+      </mj-column>
+  </mj-section>
+  <!-- Side image -->
+<mj-section background-color="#f2f2f2">
+
+  <!-- Left image -->
+  <mj-column>
+    <mj-image width="150"
+              src="./icons/invocing.png">
+  </mj-column>
+
+  <!-- right paragraph -->
+  <mj-column>
+    <mj-text font-style="italic"
+             font-size="20"
+             font-family="Helvetica Neue"
+             color="#626262">
+        Find amazing places
+      </mj-text>
+
+      <mj-text color="#525252">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus.
+        </mj-text>
+
+  </mj-column>
+</mj-section>
+<mj-section background-color="#f2f2f2" padding="0px">
+     <mj-divider border-width="1px"  border-color="lightgrey"></mj-divider>
+</mj-section>
+ <mj-section background-color="#f2f2f2">
+  <mj-column>
+    <mj-image width="150"
+              src="./icons/invocing.png">
+  </mj-column>
+
+  <!-- right paragraph -->
+  <mj-column>
+    <mj-text font-style="italic"
+             font-size="20"
+             font-family="Helvetica Neue"
+             color="#626262">
+        Find amazing places
+      </mj-text>
+
+      <mj-text color="#525252">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus.
+        </mj-text>
+
+  </mj-column>
+ </mj-section>
+</mj-body>
